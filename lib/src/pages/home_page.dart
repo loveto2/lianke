@@ -65,14 +65,14 @@ class _HomePageState extends State<HomePage> {
           margin: EdgeInsets.all(16.0),
           decoration: BoxDecoration(
               border: Border(
-                  bottom: BorderSide(color: Colors.black38, width: 1.0))),
+                  bottom: BorderSide(color: Colors.grey, width: 1.0))),
           child: Row(
             children: <Widget>[
               Container(
                 width: 83.0,
                 decoration: BoxDecoration(
                     border: Border(
-                        right: BorderSide(color: Colors.black38, width: 1.0))),
+                        right: BorderSide(color: Colors.grey, width: 1.0))),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.center,
@@ -282,10 +282,6 @@ class _HomePageState extends State<HomePage> {
                             ))),
                     Expanded(
                         child: Container(
-                            decoration: BoxDecoration(
-                                border: Border(
-                                    right: BorderSide(
-                                        color: Colors.black38, width: 1.0))),
                             padding: EdgeInsets.only(top: 23.0),
                             child: Column(
                               children: <Widget>[
@@ -394,7 +390,7 @@ class _HomePageState extends State<HomePage> {
                             ),
                             Expanded(
                                 child: Container(
-                                  child: Text('------------', style: TextStyle(color: Colors.grey)),
+                                  child: Divider(height: 1.0, color: Colors.white70,)
                                 )
                             ),
                             Container(
@@ -412,7 +408,7 @@ class _HomePageState extends State<HomePage> {
                             ),
                             Expanded(
                                 child: Container(
-                                  child: Text('---------------', style: TextStyle(color: Colors.grey)),
+                                  child: Divider(height: 1.0, color: Colors.white70,)
                                 )
                             ),
                             Container(
